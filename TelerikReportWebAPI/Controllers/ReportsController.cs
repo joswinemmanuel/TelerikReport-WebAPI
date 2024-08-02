@@ -33,6 +33,7 @@ namespace TelerikReportWebAPI.Controllers
             if (type != null && typeof(Telerik.Reporting.Report).IsAssignableFrom(type))
             {
                 return new TypeReportSource { TypeName = typeName };
+
             }
 
             // If neither worked, return null

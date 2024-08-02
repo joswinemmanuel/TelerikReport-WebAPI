@@ -145,11 +145,35 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportFramework\BaseReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\CountryReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\PatientReport.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Reports\PatientReport.Designer.cs">
       <DependentUpon>PatientReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\PersonReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PersonReport.Designer.cs">
+      <DependentUpon>PersonReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Report1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Report1.Designer.cs">
+      <DependentUpon>Report1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Report2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Report2.Designer.cs">
+      <DependentUpon>Report2.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -173,6 +197,15 @@
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Reports\PatientReport.resx">
       <DependentUpon>PatientReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PersonReport.resx">
+      <DependentUpon>PersonReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Report1.resx">
+      <DependentUpon>Report1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Report2.resx">
+      <DependentUpon>Report2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

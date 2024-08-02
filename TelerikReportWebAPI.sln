@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikReportWebAPI", "TelerikReportWebAPI\TelerikReportWebAPI.csproj", "{4E358D49-4C67-4BF0-82C2-3B3198B8AAAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuerySqlDatabase", "QuerySqlDatabase\QuerySqlDatabase.csproj", "{256F4D4D-E500-403E-8909-77F195979126}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4E358D49-4C67-4BF0-82C2-3B3198B8AAAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E358D49-4C67-4BF0-82C2-3B3198B8AAAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E358D49-4C67-4BF0-82C2-3B3198B8AAAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{256F4D4D-E500-403E-8909-77F195979126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256F4D4D-E500-403E-8909-77F195979126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{256F4D4D-E500-403E-8909-77F195979126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256F4D4D-E500-403E-8909-77F195979126}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
