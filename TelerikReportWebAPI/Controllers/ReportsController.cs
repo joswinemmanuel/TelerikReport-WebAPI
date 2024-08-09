@@ -9,6 +9,7 @@ using Telerik.Reporting.Services.WebApi;
 
 namespace TelerikReportWebAPI.Controllers
 {
+    [Obsolete]
     public class CustomReportResolver : IReportResolver
     {
         private readonly string reportsPath;
@@ -44,6 +45,7 @@ namespace TelerikReportWebAPI.Controllers
     {
         static ReportServiceConfiguration configurationInstance;
 
+        [Obsolete]
         static ReportsController()
         {
             var appPath = HttpContext.Current.Server.MapPath("~/");

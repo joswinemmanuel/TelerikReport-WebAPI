@@ -145,10 +145,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReportFramework\BaseReport.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Reports\CountryReport.cs">
+    <Compile Include="Reports\BaseReport.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Reports\PatientReport.cs">
@@ -169,11 +166,23 @@
     <Compile Include="Reports\Report1.Designer.cs">
       <DependentUpon>Report1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reports\BlankReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\BlankReport.Designer.cs">
+      <DependentUpon>BlankReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reports\Report2.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Reports\Report2.Designer.cs">
       <DependentUpon>Report2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\test.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\test.Designer.cs">
+      <DependentUpon>test.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

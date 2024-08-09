@@ -67,8 +67,7 @@ namespace TelerikReportWebAPI.Reports
             // 
             // sqlDataSource1
             // 
-            this.sqlDataSource1.ConnectionString = "Data Source=LAP-1743\\SQLEXPRESS01;Initial Catalog=carestackdb;Integrated Security" +
-    "=True";
+            this.sqlDataSource1.ConnectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=carestackdb;Integrated Security=True";
             this.sqlDataSource1.Name = "sqlDataSource1";
             this.sqlDataSource1.ProviderName = "System.Data.SqlClient";
             this.sqlDataSource1.SelectCommand = "dbo.GetAllPatients";

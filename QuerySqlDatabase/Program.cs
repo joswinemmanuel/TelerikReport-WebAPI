@@ -10,7 +10,7 @@ namespace QuerySqlServer
             try
             {
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-                builder.DataSource = "LAP-1743\\SQLEXPRESS01";
+                builder.DataSource = "(localdb)\\MSSQLLocalDB";
                 builder.InitialCatalog = "joswindb";
                 builder.IntegratedSecurity = true; // This enables Windows Authentication
                 builder.TrustServerCertificate = true; // May be needed for local SQL Server instances

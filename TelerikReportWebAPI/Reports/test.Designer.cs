@@ -1,6 +1,6 @@
 namespace TelerikReportWebAPI.Reports
 {
-    partial class Report2
+    partial class test
     {
         #region Component Designer generated code
         /// <summary>
@@ -9,5 +9,6 @@ namespace TelerikReportWebAPI.Reports
         /// </summary>
 
         #endregion
+
     }
 }
