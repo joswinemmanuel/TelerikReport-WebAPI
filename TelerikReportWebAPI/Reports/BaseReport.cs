@@ -183,9 +183,9 @@ namespace TelerikReportWebAPI.Reports
         {
             int existingColumns = this.table1.Body.Columns.Count;
 
-            for (int i = existingColumns; i < dataTable.Columns.Count; i++)
+            for (int i = existingColumns; i < dataTable.Columns.Count+1; i++)
             {
-                string columnName = dataTable.Columns[i].ColumnName;
+                string columnName = dataTable.Columns[i-1].ColumnName;
 
                 this.table1.Body.Columns.Add(new TableBodyColumn(Unit.Cm(2)));
 
